@@ -1,0 +1,9 @@
+-- AlterTable
+ALTER TABLE `User` ADD COLUMN `cnic` VARCHAR(191) NULL,
+    ADD COLUMN `city` VARCHAR(191) NULL,
+    ADD COLUMN `district` VARCHAR(191) NULL,
+    ADD COLUMN `province` VARCHAR(191) NULL,
+    ADD COLUMN `gender` VARCHAR(191) NULL,
+    ADD COLUMN `dateOfBirth` DATETIME(3) NULL,
+    ADD COLUMN `alternatePhone` VARCHAR(191) NULL,
+    ADD COLUMN `occupation` VARCHAR(191) NULL;
